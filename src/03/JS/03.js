@@ -133,12 +133,10 @@ const faturamento = [
 	}
 ]
 
-/***observação: Retire as barras de comentários do evento 'DOMContentLoaded' para que possa interagir*****/
 
-
-//document.addEventListener('DOMContentLoaded', function(){
-   // ValorFaturamente();
-//});
+document.addEventListener('DOMContentLoaded', function(){
+    ValorFaturamente();
+});
 
 let resposta = document.querySelector('#caixaDeResposta');
 
