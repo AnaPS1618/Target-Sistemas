@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body{
+            height: 100%;
+        }
+
+        body{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        #string{
+            margin: 0 10px;
+            outline-offset: none;
+            padding-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <label for="string">Insira o texto: </label>
+        <input type="text" name="string" id="string" placeholder="String...">
+        <button id="btn-inverter">Inverter</button>
+    </div>
+    <div>
+        <p></p>
+    </div>
+    
+    <script src="./JS/05.js"></script>
+</body>
+</html>
